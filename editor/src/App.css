@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.run {
+  border: none;
+  color: white;
+  background-color: rgba(70, 130, 180, .7);
+  padding: .5rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 400;
+  margin-top: 20px;
+  min-width: 150px;
+}
+
+.run:hover {
+  cursor: pointer;
+  background-color: rgba(70, 130, 180, 1);
+  box-shadow: 0 0 5px hsl(0, 10%, 17%);
+  transition: background-color .2s, box-shadow .2s ease-in-out;
+}
+
+.run:nth-of-type(1) {
+  background-color:  rgba(109, 115, 119, 0.7);
+  margin-right: 10px;
+}
+
+.output {
+  background-color: #202020;
+  padding: 10px 43px;
+  overflow: auto;
+  position: relative;
+  font-family: inherit;
+  font-weight: 300;
+  border-top: 1px solid #555651;
+  flex: 1;
+}
+
+.output p {
+  color: #e058ae;
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  right: 43px;
+}
