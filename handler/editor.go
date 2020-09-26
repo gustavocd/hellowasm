@@ -1,6 +1,6 @@
 package handler
 
-// Original code cab be found here https://qvault.io/2020/07/01/running-go-in-the-browser-with-web-assembly-wasm/
+// Original code can be found here https://qvault.io/2020/07/01/running-go-in-the-browser-with-web-assembly-wasm/
 
 import (
 	"encoding/json"
